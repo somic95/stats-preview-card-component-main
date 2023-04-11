@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(233, 47%, 7%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+    
+
+}
+
+.container1 {
+    width: 1000px ; 
+    height: 412.95px;
+    border-radius: 10px;
+    display: flex;
+    overflow: hidden;
+     
+}
+
+
+
+.container1 h1 {
+    font-family: "inter", sans-serif; 
+    
+
+}
+
+.container1 p {
+    font-family: "Lexend Deca", sans-serif;
+
+}
+
+.container1 .detail_text {
+    padding-right: 50px;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+
+.container1 .root1_con1 {
+    padding: 50px 50px ;
+    width: 500px;
+    background: hsl(244, 38%, 16%);
+}
+
+.container1 .root2_con1 {
+    margin-top: 80px;
+    columns: 3; 
+    width: 500px;
+    padding-right: 120px;
+}
+
+.root2_con1 h1 {
+    font-size: 20px;
+}
+
+.root2_con1 p {
+    font-size: 9px;
+    color: hsla(0, 0%, 100%, 0.6);
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+}
+
+
+.image {
+    width: 500px;
+    background: url(/images/image-header-desktop.jpg);
+    
+}
+
+.image-overlay {
+    width: 500px;
+    background-color: rgb(122, 23, 214, 0.5);
+    height: 100%;
+}
+
+.image-overlay h1 {
+    visibility: hidden;
+}
+
+
+@media screen and (max-width:550px) {
+   
+
+    body {
+        height: 100vh;
+    }
+
+    .container1 {
+        width: 375px;
+        height: 730px;
+        display: block;
+        background-color: hsl(244, 38%, 16%);
+        position: relative;
+       
+       
+    }
+
+    .container1 .root1_con1 {
+        width: 350px;
+        align-items: center;
+        text-align: center;
+
+        position: relative ;
+        top: 180px;
+        
+        
+    }
+
+    .head_text {
+        font-size: 30px;    
+    }
+
+    .container1 .detail_text {
+        padding-left: 50px;
+        
+    }
+
+    .root1_con1 .detail_text {
+        padding-right: -50px;
+    }
+
+    .root2_con1 {
+        position: relative;
+        
+    }
+
+    .root2_con1 .left {
+        position: absolute;
+        top: -50px;
+        left: 95px;
+    }
+
+    .root2_con1 .middle {
+        position: absolute;
+        left:  95px;
+        top: 10px;
+    }
+
+    .root2_con1 .right {
+        position: absolute;
+        left: 100px;
+        top: 70px;
+
+    }
+
+   .image {
+        background: url(/images/image-header-mobile.jpg);
+        width: 100%;
+        background-size: cover;
+        height: 200px;
+        top: -10px;
+        position: absolute;
+        
+   }
+
+    .image-overlay {
+        background-color: rgb(122, 23, 214, 0.5);
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
